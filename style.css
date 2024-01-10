@@ -29,11 +29,6 @@
     width: 500px;
     margin: 0 auto 0;
   }
-  .task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1;
-  }
   .top-section__wrapper {
     display: flex;
   }
@@ -83,6 +78,7 @@
     border-radius: 6px;
     font-family: "Lato", sans-serif;
     color: #888888;
+    flex-grow: 1;
   }
   .tasks-text:focus {
     color: #333333;
@@ -117,10 +113,10 @@
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
-    width: 226px;
+    width: 22rem;
   }
   .tasks-list > .tasks-text {
-    width: 226px;
+    width: 22rem;
   }
   .btn.delete .btn__remove {
     height: 2em;
