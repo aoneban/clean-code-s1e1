@@ -9,7 +9,7 @@
   .main {
     background-color: #f8f8f8;
     color: #333333;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     min-height: 100vh;
   }
 
@@ -23,7 +23,7 @@
     width: 100%;
   }
   .header .header__link {
-    font-family: 'Fantasy', cursive;
+    font-family: "Fantasy", cursive;
   }
   .center-content {
     display: block;
@@ -53,7 +53,7 @@
     color: #888888;
     font-size: 15px;
     width: 60px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     cursor: pointer;
   }
   .btn:hover {
@@ -68,7 +68,7 @@
     font-weight: 700;
     font-size: 15px;
     border-bottom: 2px solid #333333;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     padding: 30px 0 10px;
     margin: 0;
     text-transform: uppercase;
@@ -82,7 +82,7 @@
     border: 1px solid #dddddd;
     background: #ffffff;
     border-radius: 6px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #888888;
   }
   .tasks-text:focus {
