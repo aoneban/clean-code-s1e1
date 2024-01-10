@@ -19,7 +19,7 @@ const createNewTaskElement = function (taskString) {
   //input (checkbox)
   const checkBox = document.createElement('input'); //checkbx
   //label
-  const label = document.createElement('label'); //label
+  const label = document.createElement('div'); //label
   //input (text)
   const editInput = document.createElement('input'); //text
   //button.edit
@@ -83,7 +83,7 @@ const editTask = function () {
   const listItem = this.parentNode;
 
   const editInput = listItem.querySelector('input[type=text]');
-  const label = listItem.querySelector('label');
+  const label = listItem.querySelector('div');
   const editBtn = listItem.querySelector('.edit');
   const containsClass = listItem.classList.contains('edit-task');
   //If class of the parent is .edit-task
